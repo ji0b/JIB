@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+#topText {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+	font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.row {
+	width: 100%;
+}
+
+.section {
+    background-color: gray;
+    border: 3px solid black;
+    position: relative;
+    text-align: justify;
+    margin-top: 20px; 
+    margin-right: 20px; 
+    padding: 3px;
+}
+
+span {
+    position: absolute;
+	font-size: 20px;
+    float: right;
+    margin: 0;
+    top :-2px; 
+    right: -2px; 
+	border: 2px solid black;
+    width: 150px;
+	text-align: center;
+    overflow: auto; 
+}
+
+p {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 5px 0px 5px;
+    font-size: 20px;
+}
+
+#blockTitle1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 150, 150);
+	color: black;
+}
+
+#blockTitle2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(179, 41, 41);
+	color: black;
+}
+
+#blockTitle3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(196, 196, 79);
+	color: black;
+}
+
+
+/*=============================================
+    Large(lg)         
+=============================================*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /*=============================================
+    Medium(md)         
+=============================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+
+  /*=============================================
+    Extra small(xs)         
+=============================================*/
+@media (max-width: 767px)  {
+    .col-xs-12 {
+        float: left;
+      width: 100%;
+    }
+  }
